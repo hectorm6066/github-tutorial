@@ -34,7 +34,7 @@ where is ur info for repository setup!
 9. ```git add .``` adds all files
 10. ```git status``` checks to see if a file has been added:red means no, green means yes.
 11. ```ls``` lists the directories you went into
-12. ``` ` ``` That is a tilda, it cand bring you back to the root
+12. ``` ` ``` That is a tilda, it can bring you back to the root
 13. ```cd ..``` moves up a folder from where you entered
 there is more commands and workflows
 
