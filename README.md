@@ -7,18 +7,22 @@ _by Hector Marin_
 * Git is a code language and use it for github
 * Github is a website to store code and work
 
-show some images if u want to
 ---
+
 ## Initial Setup
 * sign into github or create a new github account
 * click on profile in the top right
 * go to settings
 * go to SSH and GPG keys tab
-try to show a ssh key as an example
+
 
 ---
 ## Repository Setup
-where is ur info for repository setup!
+* go to your github profile
+* go to "Repositories"
+* go to new
+* create a new repository
+* Congratulations, you have made a repository
 
 
 ---
@@ -28,7 +32,7 @@ where is ur info for repository setup!
 3. ```touch.filename```make a file
 4. ```rmdir [name]```remove an empty directory
 5. ```rm rf dir [name]```removes a directory full or not with force
-6. ```mv [name] [NewName]```rename a file to something else ( ok how about when u want to use mv to move something)
+6. ```mv [name] [NewName]```rename a file to something else ,You can also move a file to an existing folder with the same command.
 7. ```git push``` sends the changes to github
 8. ```git commit -m"message"``` takes a "snapshot" of the code
 9. ```git add .``` adds all files
@@ -36,8 +40,12 @@ where is ur info for repository setup!
 11. ```ls``` lists the directories you went into
 12. ``` ` ``` That is a tilda, it can bring you back to the root
 13. ```cd ..``` moves up a folder from where you entered
-there is more commands and workflows
 
 ---
 ## Rolling Back Changes
-add more info here
+* ```git checkout -- filename``` : undoes a edit
+* ```git reset HEAD filename``` : undoes add
+* ```git reset --soft HEAD~1``` : undoes a commit
+* ```git reset HEAD~1``` : undoes the last commit and unstages the file
+* ```git reset –hard HEAD~``` : undoes a pushed commit
+* ```git reset --hard HEAD~1``` : undoes a commit, unstages the file and deletes all the changes
